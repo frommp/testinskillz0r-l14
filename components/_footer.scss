@@ -1,0 +1,51 @@
+.footer {
+    max-width: 1770px;
+    width: 100%;
+    height: 271px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #232323;
+    margin: 0 auto;
+
+    &__h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__p {
+        margin-top: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+    }
+
+    &__icons {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #E8E8E8;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #E8E8E8;
+    }
+}
+
+.fa-linkedin-in {
+    color: #5474FD;
+}
+
+.fa-ellipsis-h {
+    display: none;
+}

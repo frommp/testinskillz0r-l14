@@ -1,0 +1,53 @@
+// @use '../abstracts/index' as *;
+
+@use 'bhromaon';
+@use 'choose';
+@use 'spain';
+@use 'tourist';
+@use 'footer';
+@use 'medias';
+
+.middleimage {
+    max-width: 1770px;
+    width: 100%;
+    max-height: 340px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.middleimage img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+button {
+    transition: 1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5473fd75;
+}
+
+button:focus {
+    border: 3px solid #2727a0;
+}
+
+img {
+    transition: 1s;
+    opacity: 1;
+}
+
+img:hover {
+    cursor: grab;
+    opacity: 0.6
+}
+
+a:hover {
+    color: #ffffff6c;
+}
+
+a:focus {
+    background-color: #ffffff7a;
+}
